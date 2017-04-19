@@ -1,7 +1,10 @@
-# test coverage for  [mathjs (v3.11.5)](http://mathjs.org)  [![npm package](https://img.shields.io/npm/v/npmtest-mathjs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-mathjs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-mathjs.svg)](https://travis-ci.org/npmtest/node-npmtest-mathjs)
+# npmtest-mathjs
+
+#### test coverage for  [mathjs (v3.12.0)](http://mathjs.org)  [![npm package](https://img.shields.io/npm/v/npmtest-mathjs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-mathjs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-mathjs.svg)](https://travis-ci.org/npmtest/node-npmtest-mathjs)
+
 #### Math.js is an extensive math library for JavaScript and Node.js. It features a flexible expression parser with support for symbolic computation, comes with a large set of built-in functions and constants, and offers an integrated solution to work with dif
 
-[![NPM](https://nodei.co/npm/mathjs.png?downloads=true)](https://www.npmjs.com/package/mathjs)
+[![NPM](https://nodei.co/npm/mathjs.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/mathjs)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-mathjs/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-mathjs/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-mathjs/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-mathjs/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-mathjs/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-mathjs/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-mathjs/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-mathjs/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-mathjs/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-mathjs/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-mathjs%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-mathjs/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-mathjs/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-mathjs/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-mathjs/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-mathjs%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-mathjs/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-mathjs/build/test-report.html](https://npmtest.github.io/node-npmtest-mathjs/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-mathjs/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-mathjs/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-mathjs/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-mathjs/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-mathjs/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-mathjs/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-mathjs/build/screenCapture.npmPackageListing.svg)
 
@@ -28,7 +37,6 @@
 {
     "author": {
         "name": "Jos de Jong",
-        "email": "wjosdejong@gmail.com",
         "url": "https://github.com/josdejong"
     },
     "bin": {
@@ -267,13 +275,13 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "34e9e75e2bd3740986e96fc8a0815999f331f28d",
-        "tarball": "https://registry.npmjs.org/mathjs/-/mathjs-3.11.5.tgz"
+        "shasum": "d8d71f01362afd56c7662fab31065026a27a0030",
+        "tarball": "https://registry.npmjs.org/mathjs/-/mathjs-3.12.0.tgz"
     },
     "engines": {
         "node": ">= 0.1"
     },
-    "gitHead": "347c9f432058e3244bf763d9d63869db3552d128",
+    "gitHead": "720d443f794d41376a1f1b4b3a75361cb58e7306",
     "homepage": "http://mathjs.org",
     "keywords": [
         "math",
@@ -294,13 +302,11 @@
     "main": "./index",
     "maintainers": [
         {
-            "name": "josdejong",
-            "email": "wjosdejong@gmail.com"
+            "name": "josdejong"
         }
     ],
     "name": "mathjs",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/josdejong/mathjs.git"
@@ -312,7 +318,7 @@
         "test": "mocha test --recursive",
         "watch": "gulp watch"
     },
-    "version": "3.11.5"
+    "version": "3.12.0"
 }
 ```
 
