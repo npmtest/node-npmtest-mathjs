@@ -1,6 +1,6 @@
 # npmtest-mathjs
 
-#### test coverage for  [mathjs (v3.12.0)](http://mathjs.org)  [![npm package](https://img.shields.io/npm/v/npmtest-mathjs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-mathjs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-mathjs.svg)](https://travis-ci.org/npmtest/node-npmtest-mathjs)
+#### basic test coverage for  [mathjs (v3.12.1)](http://mathjs.org)  [![npm package](https://img.shields.io/npm/v/npmtest-mathjs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-mathjs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-mathjs.svg)](https://travis-ci.org/npmtest/node-npmtest-mathjs)
 
 #### Math.js is an extensive math library for JavaScript and Node.js. It features a flexible expression parser with support for symbolic computation, comes with a large set of built-in functions and constants, and offers an integrated solution to work with dif
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-mathjs/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-mathjs/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-mathjs/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-mathjs/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-mathjs/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-mathjs/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-mathjs/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-mathjs/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-mathjs/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-mathjs/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-mathjs/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-mathjs/build/coverage.html/index.html)
 
@@ -275,13 +275,13 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "d8d71f01362afd56c7662fab31065026a27a0030",
-        "tarball": "https://registry.npmjs.org/mathjs/-/mathjs-3.12.0.tgz"
+        "shasum": "a165abdbc6b55da1ec600b85311e2962850551b5",
+        "tarball": "https://registry.npmjs.org/mathjs/-/mathjs-3.12.1.tgz"
     },
     "engines": {
         "node": ">= 0.1"
     },
-    "gitHead": "720d443f794d41376a1f1b4b3a75361cb58e7306",
+    "gitHead": "9dfbac55659913eb29f84f1d7bf6094b3676b0ac",
     "homepage": "http://mathjs.org",
     "keywords": [
         "math",
@@ -318,7 +318,7 @@
         "test": "mocha test --recursive",
         "watch": "gulp watch"
     },
-    "version": "3.12.0"
+    "version": "3.12.1"
 }
 ```
 
